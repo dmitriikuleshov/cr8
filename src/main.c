@@ -2,6 +2,7 @@
 
 
 void print_commands() {
+	printf("List elements can not be negative, because of size_t type\n");
 	printf("Commands: \n");
 	printf("\t1 - Print list\n");
 	printf("\t2 - Insert to end\n");
